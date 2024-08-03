@@ -67,7 +67,7 @@ jobs:
       run: |
         echo "Echo tags"
         echo "=============================================================================="
-        echo $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/openapi:1.0.0
+        echo $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/drawdb:1.0.0
         echo "=============================================================================="
        
 
@@ -77,5 +77,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        #tags: $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/openapi:1.0.0
+        #tags: $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/drawdb:1.0.0
         tags: registry.cn-hangzhou.aliyuncs.com/zengxihome/drawdb:1.0.0
