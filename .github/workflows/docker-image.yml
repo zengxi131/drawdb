@@ -78,4 +78,4 @@ jobs:
         file: ./Dockerfile
         push: true
         #tags: $ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/openapi:1.0.0
-        tags: registry.cn-hangzhou.aliyuncs.com/zengxihome/openapi:1.0.0
+        tags: registry.cn-hangzhou.aliyuncs.com/zengxihome/drawdb:1.0.0
